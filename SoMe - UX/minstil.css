@@ -1,0 +1,45 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+      /* The image used */
+  background: url(pause-baggrund.png);
+    position: relative;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+img{
+   
+    width: 30%;
+    position: fixed;
+    top: 13%;
+    left: 4%;
+}
+
+
+.aarhus{
+font-family: 'Raleway', sans-serif;
+position: absolute;
+  left: 34%;
+  top: 28%;
+  width: 35%;
+  
+  font-size: 30px;
+}
+
+
+
+#beskrivelse{
+    font-size: 42px;
+}
+

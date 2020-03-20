@@ -1,0 +1,216 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("pause1.jpg");
+    position: relative;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vejr{
+    position: absolute;
+    top: 60%;
+    right: 40%;
+}
+
+#forside {
+    background-color: black;
+}
+
+header {
+    background: #f9bc3c;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    position: relative;
+    
+}
+
+#logo {
+    width: 118px;
+    float: left;
+    padding-left: 1.5%;
+    padding-top: 5px;
+}
+
+.search-container {
+    position: absolute;
+    right: 10px;
+    padding-top: 1.5%;
+}
+
+
+
+
+
+.anbefalet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.anbefalet div {
+    width: 33%;
+}
+
+
+.laen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.laen div {
+    width: 33%;
+}
+
+.rent {
+    width: 100%;
+    
+}
+
+div#carousel { 
+  perspective: 100%; 
+  background: #100000; 
+  padding-top: 4%;  
+  margin-bottom: %; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 600px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span { 
+  color: #fff; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+
+
+.quiz-color {
+    height: 100%;
+    background-color: orange;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px }
+
+
+h3 {
+    text-align: center;
+    font-size: 20px
+}
+
+.pil {
+    margin: 50px 0px 50px 47%;
+}
+
+
+
+
+.quiz-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quiz-box div {
+    width: 100%;
+}
+
+.spg2 {
+    margin: 0px 50px 0px 50px;
+}
+
+
+
+input[type=submit] {
+  background-color: cadetblue;
+  color: #bfc8d9;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+    margin-left: 47%;
+
+}
+
+input[type=submit]:hover {
+  background-color: #282e34;
+}
+
+
+.laenbook {
+    background-image: url(BGbook.jpg);
+    position: relative;
+}
+
+.search-books {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+
+.search-container-book {
+    position: absolute;
+    right: 35%;
+    
+}
+
+
+.search-text {
+    font-size: 45px;
+}
+
+.search-icon {
+    width: 15%;
+}
+
+.search-bar {
+    height: 30px;
+    width: 70%;
+    margin: 0px 10px;
+}
+
+
+.laenmedie {
+    background-image: url(BGav.jpg);
+    position: relative;
+}
